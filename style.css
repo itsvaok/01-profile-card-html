@@ -1,0 +1,51 @@
+
+
+body {
+	font-family: 'Poppins', sans-serif;
+	color: #f4f4f4;
+	background: linear-gradient(to bottom, #d1001f 0%, #000000 100%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	min-height: 100vh;
+}
+
+main {
+	padding: 24px 16px;
+	width: 100%;
+	max-width: 640px;
+}
+
+.card {
+	max-width: 560px;
+	width: min(92%, 560px);
+	padding: 32px 28px;
+	background: rgba(255, 255, 255, 0.10);
+	border: 1px solid rgba(255, 255, 255, 0.18);
+	border-radius: 24px;
+	box-shadow: 0 16px 40px rgba(0, 0, 0, 0.30);
+	text-align: center;
+}
+
+.card header h1 {
+	font-size: 42px;
+	margin: 0 0 0.75rem;
+}
+
+.card header p {
+	margin: 0 0 1.5rem;
+	font-weight: 200;
+}
+
+.role {
+	font-size: 28px;
+	font-weight: 700;
+	margin: 0 0 24px;
+}
+
+.card p {
+	margin: 0;
+	line-height: 1.7;
+}
+
