@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Document metadata - tells browser how to read this page -->
+    <meta charset="UTF-8">  <!-- Use UTF-8 character encoding (supports all languages) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- Make page responsive on mobile -->
+    <title>Neva Fuller - Portfolio</title>  <!-- Title shown in browser tab -->
+    <link rel="stylesheet" href="styles.css">  <!-- Link to CSS styling file -->
+</head>
+<body>
+    <!-- ============================================
+         NAVIGATION BAR
+         ============================================
+         Sticky header that stays at top when scrolling.
+         Contains logo, menu links, and mobile hamburger icon.
+    -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <!-- Portfolio owner's name/logo -->
+            <div class="logo">Neva Fuller</div>
+            
+            <!-- Navigation menu - list of page sections to jump to -->
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#projects" class="nav-link">Portfolio</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+            </ul>
+            
+            <!-- Three-line hamburger menu icon for mobile (hidden on desktop) -->
+            <div class="hamburger">
+                <span></span>  <!-- Top line -->
+                <span></span>  <!-- Middle line -->
+                <span></span>  <!-- Bottom line -->
+            </div>
+        </div>
+    </nav>
+
+    <!-- ============================================
+         HERO SECTION - Main Welcome Area
+         ============================================
+         Large, vibrant banner with portfolio owner's name,
+         design specialty, and call-to-action buttons.
+         Includes a personal portrait for a creative brand feel.
+    -->
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <!-- Left side: Text content -->
+            <div class="hero-text">
+                <p class="eyebrow">Graphic Designer</p>
+                <h1>Hi, I'm Neva Fuller</h1>
+                <p class="tagline"></p>
+                
+                <div class="hero-buttons">
+                    <a href="#projects" class="cta-button">View My Work</a>
+                </div>
+                <ul class="hero-highlights">
+            
+                </ul>
+            </div>
+            
+            <!-- Right side: Profile image -->
+            <div class="hero-image">
+                <img src="img/me.png" alt="Profile Picture" class="profile-pic">  <!-- Your photo here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         PROJECTS SECTION
+         ============================================
+         Display your work in a responsive grid of cards.
+         Each card shows: project image, title, description, and link.
+    -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Portfolio Highlights</h2>  <!-- Section heading -->
+            
+            <!-- Grid container - automatically adjusts to 1, 2, or 3 columns based on screen size -->
+            <div class="projects-grid">
+                
+                <!-- First project card -->
+                <div class="project-card">
+                    <!-- Project image -->
+                    <div class="project-image">
+                        <img src="img/SST_square.png" alt="Project 1">  <!-- Replace with your project screenshot -->
+                    </div>
+                    <!-- Project details -->
+                    <h3>SST LOGO</h3>
+                    <p>Logo I created for Twitch streamer ShahSoTweaky</p>
+                    <a href="#" class="project-link"></a>  <!-- Link to full project page -->
+                </div>
+
+                <!-- Second project card -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="img/starting soon.PNG" alt="Project 2">  <!-- Replace with your project screenshot -->
+                    </div>
+                    <h3>'Starting soon' Overlay</h3>
+                    <p>'Starting soon' overlay I designed for Twitch streamer ShahSoTweaky</p>
+                    <a href="#" class="project-link"></a>
+                </div>
+
+                <!-- Third project card -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="img/KASH.png" alt="Project 3">  <!-- Replace with your project screenshot -->
+                    </div>
+                    <h3>KASH LOGO</h3>
+                    <p>Logo I designed for Twitch streamer AshAlk</p>
+                    <a href="#" class="project-link"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         ABOUT SECTION
+         ============================================
+         Tell visitors about your design background,
+         creative process, and core visual strengths.
+    -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                  <p> I am pursuing a bachelors degree at the university of Cincinnati as a Fine Arts major. I would love to pursue a Graphic designing career.  </p>
+                    <p>As a graphic designer, I create visual systems that feel intentional, polished, and full of personality. From brand identities to editorial design, every piece is crafted to communicate clearly and creatively.</p>
+                    <p>My work blends color, typography, and photography to deliver memorable storytelling across print and digital channels.</p>
+          
+    </section>
+
+    <!-- ============================================
+         FOOTER
+         ============================================
+         Simple footer at the bottom showing copyright info.
+    -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Neva Fuller. All rights reserved.</p>  <!-- Copyright notice -->
+        </div>
+    </footer>
+
+    <!-- Link to JavaScript file for interactive features -->
+    <script src="script.js"></script>  <!-- Handles menu toggle, form submission, and animations -->
+</body>
+</html>
